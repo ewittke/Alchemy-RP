@@ -1,0 +1,90 @@
+{"db":{
+
+	"GreekGods_Olympians": [
+		{	"name": "Zeus",
+			"description": null
+		},
+		{	"name": "Hera",
+			"description": null
+		},
+		{	"name": "Poseidon",
+			"description": null
+		},
+		{	"name": "Demeter",
+			"description": null
+		},
+		{	"name": "Athena",
+			"description": null
+		},
+		{	"name": "Apollo",
+			"description": null
+		},
+		{	"name": "Artemis",
+			"description": null
+		},
+		{	"name": "Ares",
+			"description": null
+		},
+		{	"name": "Aphrodite",
+			"description": null
+		},
+		{	"name": "Hephaestus",
+			"description": null
+		},
+		{	"name": "Hermes",
+			"description": null
+		},
+		{	"name": "Hestia",
+			"description": null
+		},
+		{	"name": "Dionysus",
+			"description": null
+		}
+	],
+	
+	"GreekGods_Primordial": [
+		{	"name": "Aether",
+			"description": null
+		},
+		{	"name": "Ananke",
+			"description": null
+		},
+		{	"name": "Chaos",
+			"description": null
+		},
+		{	"name": "Chronos",
+			"description": null
+		},
+		{	"name": "Erebus",
+			"description": null
+		},
+		{	"name": "Eros",
+			"description": null
+		},
+		{	"name": "Gaia",
+			"description": null
+		},
+		{	"name": "Hemera",
+			"description": null
+		},
+		{	"name": "Nyx",
+			"description": null
+		},
+		{	"name": "Phanes",
+			"description": null
+		},
+		{	"name": "Pontus",
+			"description": null
+		},
+		{	"name": "Tartarus",
+			"description": null
+		},
+		{	"name": "Thalassa",
+			"description": null
+		},
+		{	"name": "Uranus",
+			"description": null
+		}
+	]
+
+}}
