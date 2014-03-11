@@ -1,0 +1,23 @@
+Draggable
+Droppable
+Resizable
+Selectable
+Sortable
+
+Easing Functions
+Blind Effect
+Bounce Effect
+Clip Effect
+Drop Effect
+Explode Effect
+Fade Effect
+Fold Effect
+Highlight Effect
+Pulsate Effect
+Scale Effect
+Shake Effect
+Slide Effect
+Transfer Effect
+
+Dummy Pie Chart
+Dummy Line Graph
