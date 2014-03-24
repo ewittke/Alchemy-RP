@@ -1,3 +1,7 @@
+Alchemy RP aims to make it easy make motion prototypes for user interfaces.
+This is an index of the functionality to be included.
+
+
 Custom Variables (Data.json)
 ---------------------------------
 alchemist.var.__variableName__
@@ -33,6 +37,8 @@ Scale Effect
 Shake Effect
 Slide Effect
 Transfer Effect
+Shuffle Effect (not in packages)
+Flip Effect (not in packages)
 
 
 Data Visualization
