@@ -10,10 +10,16 @@
     </script>
 
 <!-- Alchemy -->
+
+	<!-- CONTROL PANEL -->
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- PAINT -->
 	<link  href="_alchemy/css/core.css" rel='stylesheet' type='text/css'>
+
+	<!-- GEARS -->
 	<script src="_alchemy/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="_alchemy/js/jquery-1.11.0.min.js" type="text/javascript"></script>
 	<script src="_alchemy/js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
@@ -25,11 +31,22 @@
 
 <!-- BEGIN: Prototype -->
 
-<div class="container-fluid">
+<div id="wrapper" class="container-fluid">
+
 	<!-- Header -->
-	<div class="jumbotron">
+	<div class="jumbotron" data-alch-component="Waldo" data-alch-type="panel">
 		<h1>Alchemy RP</h1>
-		<p><a class="btn btn-primary btn-lg" role="button">Spin Me</a></p>
+
+		<p>I, Ishmael, was one of that crew; my shouts had gone up with the rest; my oath had been welded with theirs; and stronger I shouted, and more did I hammer and clinch my oath, because of the dread in my soul. A wild, mystical, sympathetical feeling was in me; Ahab's quenchless feud seemed mine. With greedy ears I learned the history of that murderous monster against whom I and all the others had taken our oaths of violence and revenge.</p>
+		<p><a class="btn btn-primary btn-lg" data-alch-role="button" data-alch-trigger="click:flipWaldo">Flip This</a></p>
+
+		<!-- The alt-content type can be  -->
+		<div data-alch-component="Waldo2" data-alch-type="panel-alt-content">
+			<h1>Well done – you've found Waldo.</h1>
+
+			<p>For some time past, though at intervals only, the unaccompanied, secluded White Whale had haunted those uncivilized seas mostly frequented by the Sperm Whale fishermen. But not all of them knew of his existence; a few of them, comparatively, had knowingly seen him; while the number who as yet had actually and knowingly given battle to him, was small indeed. For, owing to the large number of whale-cruisers; the disorderly way they were sprinkled over the entire watery circumference, many of them adventurously pushing their quest along solitary latitudes, so as seldom or never for a whole twelvemonth or more on a stretch, to encounter a single news-telling sail of any sort; the inordinate length of each separate voyage; the irregularity of the times of sailing from home; all these, with other circumstances, direct and indirect, long obstructed the spread through the whole world-wide whaling-fleet of the special individualizing tidings concerning Moby Dick. It was hardly to be doubted, that several vessels reported to have encountered, at such or such a time, or on such or such a meridian, a Sperm Whale of uncommon magnitude and malignity, which whale, after doing great mischief to his assailants, has completely escaped them; to some minds it was not an unfair presumption, I say, that the whale in question must have been no other than Moby Dick. Yet as of late the Sperm Whale fishery had been marked by various and not unfrequent instances of great ferocity, cunning, and malice in the monster attacked; therefore it was, that those who by accident ignorantly gave battle to Moby Dick; such hunters, perhaps, for the most part, were content to ascribe the peculiar terror he bred, more, as it were, to the perils of the Sperm Whale fishery at large, than to the individual cause. In that way, mostly, the disastrous encounter between Ahab and the whale had hitherto been popularly regarded.</p>
+			<p><a class="btn btn-primary btn-lg" data-alch-role="button">Flip This Back</a></p>
+		</div>
 	</div>
 
 	<div class="row">
@@ -41,15 +58,6 @@
 				<li><a href="#">Tab B</a></li>
 				<li><a href="#">Tab C</a></li>
 			</ul>
-
-			<!-- The alt-content type can be  -->
-			<div data-type="alch_alt-content">
-				<ul class="nav nav-tabs">
-					<li class="active"><a href="#">Tab A <span class="badge">4</span></a></li>
-					<li><a href="#">Tab B</a></li>
-					<li><a href="#">Tab C</a></li>
-				</ul>	
-			</div>
 		</div>
 
 		<!-- Column B -->
