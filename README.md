@@ -1,5 +1,7 @@
 Alchemy-RP
 ==========
++++ PRIORITY UPDATE: Convert all code to AngularJS.
+
 +++ Getting Started (Developers) -----------------------------------------------------------
 
 	About: Alchemy RP aims to make it easy to rapidly produce interactive motion prototypes.
